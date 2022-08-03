@@ -1,0 +1,14 @@
+@font-face {
+    font-family: MISA Roboto;
+    src: url(..//assets/fonts/roboto-v20-vietnamese_latin-500.woff2);
+}
+
+@font-face {
+    font-family: MISA Roboto Italic;
+    src: url(../assets/fonts/roboto-v20-vietnamese_latin-italic.woff2);
+}
+
+@font-face {
+    font-family: MISA Roboto Regular;
+    src: url(../assets/fonts/roboto-v20-vietnamese_latin-regular.woff2);
+}
