@@ -1,0 +1,78 @@
+@import "./base/header.css";
+@import "./base/navigation.css";
+@import "./base/toolbar.css";
+@import "./base/content.css";
+@import "./base/icon.css";
+@import "./base/input.css";
+@import "./base/button.css";
+@import "./base/combobox.css";
+@import "./base/table.css";
+@import "./base/notifiContent.css";
+@import "./base/formdata.css";
+
+@font-face {
+    font-family: Latin Bold;
+    src: url('../assets/fonts/roboto-v20-vietnamese_latin-500.woff2');
+}
+
+@font-face {
+    font-family: Latin Italic;
+    src: url('../assets/fonts/roboto-v20-vietnamese_latin-italic.woff2');
+}
+
+@font-face {
+    font-family: Latin Regular;
+    src: url('../assets/fonts/roboto-v20-vietnamese_latin-regular.woff2');
+}
+
+body,button,textarea,input{
+    padding: 0;
+    margin: 0;
+    font-family: Latin Regular;
+    font-size: 13px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 84px 64px calc(100vh - 84px - 64px);
+    grid-template-columns:repeat(12, auto);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #F0F2F4;
+} 
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #C5C9D3;
+}
+
+::-webkit-scrollbar:hover{
+    width: 12px;
+}
+
+::-webkit-scrollbar:active{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 12px;
+    background-color: #99A1B2;
+} 
+
+::-webkit-scrollbar-thumb:active {
+    width: 12px;
+    background-color: #7C869C;
+} 
+
+@keyframes hoverbutton {
+    from {
+      opacity: 0.5;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}

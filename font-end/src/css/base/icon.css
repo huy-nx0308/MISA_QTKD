@@ -1,0 +1,272 @@
+.background-icon-face{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -288px -321px;
+    width: 16px;
+    height: 16px;
+}
+
+.background-icon-question{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -218px -363px;
+    width: 20px;
+    height: 20px;
+}
+
+.background-icon-box{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -243px -411px;
+    width: 19px;
+    height: 20px;
+}
+
+.background-icon-calendar{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -123px -339px;
+    width: 18px;
+    height: 20px;
+}
+
+.background-icon-notify{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -75px -339px;
+    width: 18px;
+    height: 20px;
+}
+
+.background-icon-setting{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -98px -339px;
+    width: 20px;
+    height: 20px;
+}
+
+.background-icon-avatar{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -96px -564px;
+    width: 32px;
+    height: 32px;
+}
+
+.background-icon-search-input{
+    width: 16px;
+    height: 16px;
+    background: url(../../assets/img/icon_collection.svg) no-repeat;
+    background-position: -32px 0;
+    margin: 8px;
+    padding-right: 2px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.label-input-icon{
+    width: 280px !important;
+}
+
+.background-icon-work{
+    background: url('../../assets/img/icon_collection.svg') no-repeat 0 -241px;
+}
+
+.header-nav-item__background{
+    background: yellow;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.button-icon__down{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -81px -159px;
+}
+
+.button-icon__icon-dots{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -48px 0px;
+}
+
+.button-icon__down-black{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -336px -31px;
+}
+
+.button-icon__up-black{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -320px -32px;
+}
+
+.button-icon__tiles{
+    background: transparent url(../../assets/img/icon_collection.svg) no-repeat -128px -304px;
+}
+
+.background-icon__table-sum{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0 0;
+}
+
+
+.th-icon-sum {
+    background: red;
+    width: 16px;
+    height: 16px;
+}
+
+.background-icon__phone{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -177px -322px;
+}
+
+.background-icon__bill{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -192px -321px;
+}
+
+.background-icon__calendar{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -209px -321px;
+}
+
+.background-icon__email{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0 -321px;
+}
+
+.background-icon__header-sum{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0 0px;
+}
+
+.background-icon__home{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0px -272px;
+}
+
+.background-icon__home-hover:hover>.header-nav-item__background{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0px -288px;
+}
+
+.background-icon__tiemnang-hover:hover>.background-icon__tiemnang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -160px -288px;
+}
+
+.background-icon__tiemnang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat 0px -48px;
+}
+
+.background-icon__chaohang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -16px -272px;
+}
+
+.background-icon__chaohang-hover:hover>.background-icon__chaohang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -16px -288px;
+}
+
+.background-icon__lienhe{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -128px -48px;
+} 
+
+.background-icon__lienhe-hover:hover>.background-icon__lienhe{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -176px -288px;
+}
+
+.background-icon__khachhang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -112px -48px;
+}
+
+.background-icon__khachhang-hover:hover>.background-icon__khachhang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -224px -288px;
+}
+
+.background-icon__cohoi{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -80px -48px;
+}
+
+.background-icon__cohoi-hover:hover>.background-icon__cohoi{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -160px -304px;
+}
+.background-icon__aocohoi{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -66px -305px;
+}
+.background-icon__baogia{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -64px -48px;
+}
+
+.background-icon__baogia-hover:hover>.background-icon__baogia{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -176px -304px;
+}
+
+.background-icon__donhang{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -144px -48px;
+}
+
+.background-icon__donhang-hover:hover>.background-icon__donhang{
+    background:url(../../assets/img/icon_collection.svg) no-repeat -160px -240px;
+}
+
+.background-icon__hoadon{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -320px -176px;
+}
+
+.background-icon__hoadon-hover:hover>.background-icon__hoadon{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -208px -304px;
+}
+
+.background-icon__aocohoi{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -64px -304px;
+}
+
+.background-icon__aocohoi-hover:hover>.background-icon__aocohoi{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -80px -304px;
+}
+
+.background-icon__hoatdong{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -128px -273px;
+}
+
+.background-icon__hoatdong-hover:hover>.background-icon__hoatdong{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -128px -289px;
+}
+
+.background-icon__muctieu{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -81px -273px;
+}
+
+.background-icon__muctieu-hover:hover>.background-icon__muctieu{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -81px -289px;
+}
+
+.background-icon__chiendich{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -208px -48px;
+}
+
+.background-icon__chiendich-hover:hover>.background-icon__chiendich{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -224px -304px;
+}
+
+.background-icon__baocao{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -32px -272px;
+}
+
+.background-icon__baocao-hover:hover>.background-icon__baocao{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -32px -288px;
+}
+
+.background-icon__khac{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -48px -272px;
+}
+
+.background-icon__khac-hover:hover>.background-icon__khac{
+    background: url(../../assets/img/icon_collection.svg) no-repeat repeat -48px -288px;
+}
+
+.background-icon__avatar-push{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -144px -848px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+.background-icon-arrow-left{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -290px -32px;
+}
+
+.background-icon-arrow-right{
+    background: url('../../assets/img/icon_collection.svg') no-repeat -303px -32px;
+}
+
+.icon-font-16{
+    width:16px;
+    height:16px;
+}
+
+.icon-refesh{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -351px -32px;
+}
+
+.icon-refesh:hover{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -207px -144px;
+}
+
+.filter-title__icon span {
+    padding: 0;
+}

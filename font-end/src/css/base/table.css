@@ -1,0 +1,73 @@
+.table-container {
+    grid-row: 1/2;
+    /* overflow-x: scroll; */
+    display:grid;
+    grid-template-rows: 32px calc(100vh - 84px - 64px - 48px - 32px);
+    /* overflow-y: hidden */
+}
+
+.tr{
+    display: grid;
+    grid-template-columns: 24px 24px 60px 80px 150px 150px 150px 150px 150px 150px 100px 150px 150px 150px 150px 150px 150px 150px 120px 200px;
+    padding: 0 16px;
+    height: 32px;
+    line-height: 32px;
+    text-align: start;
+    border-bottom: 1px solid #D3D7DE;
+    box-sizing: border-box;
+    grid-gap: 5px 16px;
+}
+
+
+.tbody>.tr:hover {
+    background-color: #E7EBFC;
+    cursor: pointer;
+}
+
+.table-header {
+    font-family: 'Latin Bold';
+    grid-row: 1/2;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    width: 1000%;
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F4;
+}
+
+.table-content{
+    grid-row: 2/3;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.table-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.table-button__right {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.table-button__left-text{
+    font-family: Latin Bold;
+}
+
+.th {
+    display: flex;
+    align-items: center;
+}
+
+.td,.th {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

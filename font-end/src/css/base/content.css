@@ -1,0 +1,136 @@
+.content{
+    grid-column: 1/13;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 240px calc(100% -  240px - 320px) 320px;
+}
+
+.content-sider-bar__left{
+    grid-column: 1/2;
+    border-right: 1px solid #D3D7DE;
+    box-sizing:border-box;
+    display: inline-block;
+}
+
+
+.content-center{
+    grid-column: 2/3;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows:calc(100vh - 84px - 64px - 48px) 48px;
+    position:relative;
+}
+
+.content-sider-bar__right{
+    grid-column: 3/4;
+    border-left: 1px solid #D3D7DE;
+    display:grid;
+    grid-template-rows: 32px calc(100vh - 84px - 64px - 32px);
+}
+
+/* content left */
+.filter-save {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.filter-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 16px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.filter-title__icon {
+    height: 32px;
+}
+
+.filter-content-child__checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 32px;
+    padding: 0 16px;
+}
+
+.filter-content-child__box {
+    padding: 0 16px;
+    padding-bottom: 8px;
+}
+
+.combobox.filter-save.filter-content-child__box--combobox {
+    display: inline;
+}
+
+.filter-content-child__box--textarea__content {
+    height: 76px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 16px;overflow: scroll;
+    overflow-x: hidden;
+}
+
+.filter-content {
+    height: calc(100vh - 84px -  64px - 32px - 32px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.content-sider-bar__right--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #D3D7DE;
+    grid-row: 1/2;
+}
+
+.content-sider-bar__right--child-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-sider-bar__right--content{
+    grid-row: 2/3;
+}
+.buttonHideShow {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 32px !important;
+    width: 16px !important;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 11px 5px #cccccc;
+    background-color:white;
+    animation:3s all ease animationArrow;
+    cursor:pointer;
+}
+
+.buttonHideShowLeft {
+    left: 0;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.buttonHideShowRight {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+}
+
+.buttonHideShow:hover {
+    cursor: pointer;
+    background: #E2E4E9;
+    transition: 0.5s;
+}
+
+
+.buttonHideShow:active {
+    background: #f7f8fb;
+}
+
+

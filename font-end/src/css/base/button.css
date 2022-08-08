@@ -1,0 +1,129 @@
+.button {
+    height: 32px;
+    padding: 0 16px;
+    line-height: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.button-icon {
+    padding-left: 0 !important;
+}
+
+.button-icon__icon {
+    margin: 8px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.button-icon__icon-sum{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -241px -128px;
+}
+
+.button-background__primary{
+    background-color:#4262F0;
+    color:#FFFFFF;
+}
+
+.button-background__primary:hover{
+    background-color: #2B4EEE;
+    transition: 0.5s;
+}
+
+.button-background__primary:active{
+    background-color:#133BEC;
+}
+
+.button-background-white{
+    border:1px solid #D3D7DE;
+    background-color:#ffffff;
+}
+
+.button-background-white:hover{
+    background-color: #E2E4E9;
+    transition: 0.5s;
+}
+ 
+.button-background-white:active{
+    background-color: #D3D7DE;
+}
+
+.button-icon__text {
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.button-arrow {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-left: 1px solid #ffffff;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.combo-button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.button-dots{
+    padding:0;
+}
+
+.button-icon__left{
+    border-radius: 4px 0 0 4px;
+}
+
+.button-icon__right{
+    border-radius: 0 4px 4px 0;
+}
+.button__toolbar-left {
+    border: none;
+    background: none;
+    cursor:pointer;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+}
+
+.button__toolbar-left:hover {
+    color: #2B4EEE;
+    transition: 0.5s;
+}
+.button__toolbar-refesh {
+    margin: 0;
+}
+
+.toolbar-left.toolbar-child {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    width: 240px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+button.button-icon__refesh {
+    border: none;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+}
+
+.button.button-icon__refesh:hover>.icon-refesh{
+    background: url(../../assets/img/icon_collection.svg) no-repeat -207px -144px;
+    
+}
